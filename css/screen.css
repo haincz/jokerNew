@@ -1,0 +1,377 @@
+@font-face {
+    font-family: 'Lato';
+    src: url('../assets/Lato-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face{
+    font-family: "CNFREEBD";
+    src: url('../assets/CNFREEBD.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.next {
+    width: 86px;
+    height: 86px;
+    background: #fff;
+    position: relative;
+    z-index: 2;
+}
+
+
+#header {
+    padding-top: 76px;
+    overflow: hidden;
+    position: relative;
+    background: #282828;
+}
+
+#header h2 {
+    width: 422px;
+    margin: 0px auto;
+    font-size: 26px;
+    text-align: center;
+    color: #dfdbc2;
+}
+
+#header h2:after, 
+#header h2:before{
+
+    background-color: #dfdbc2;
+    content: "";
+    display: inline-block;
+    height: 4px;
+    vertical-align: middle;
+    width: 20%;
+    margin: 0 12px;
+}
+
+#header .about {
+    margin: 0px auto;
+    margin-top: 55px;
+    background: #373637;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    
+    /* You need to define an explicit height! */
+    height: 100vh;
+}
+
+#header .about, #header .about:before {
+    width: 412px;
+    height: 198px;
+    padding: 1px 0;
+}
+
+
+#header h1 {
+    color: #e3dfc7;
+    text-shadow: -2px -2px 0 #050505;
+}
+
+/*#header .about:before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: -6px;
+    left: -6px;
+    border: 1px dashed #4c4c4c;
+}
+*/
+
+/*#header .about div:first-child {
+    font-size: 205px;
+    color: #e3dfc7;
+    margin-top: -22px;
+}
+
+#header .about div:last-child {
+    color: #e3dfc7;
+    font-size: 32px;
+    margin-top: -28px;
+    margin-left: 18px;
+}*/
+
+#header .broken-page {
+    border-radius: 50%;
+    width: 642px;
+    height: 642px;
+    position: relative;
+}
+
+#header .text {
+    color: #fff;
+    font-size: 26px;
+    line-height: 32px;
+    width: 350px;
+    padding: 15px;
+    text-align: justify;
+    z-index: 1;
+}
+
+#header .text > div {
+    padding: 15px 2px;
+}
+
+#header .text > div > div {
+    width: 314px;
+}
+
+#header .next{
+    margin: 0 auto;
+    margin-top: -10px;
+}
+
+#header .the-world {
+    width: 136px;
+    height: 149px;
+    background: url('../gfx/mat.jpg') no-repeat;
+}
+
+#header .buttons .wrapper {
+    width: 800px;
+    margin: 0px auto;
+    position: relative;
+}
+
+#header .broken-page .page {
+    margin-left: -66px;
+    margin-top: -22px;
+    width: 650px;
+    height: 650px;
+    background: url('../gfx/planet.png') no-repeat;
+    position: relative;
+}
+
+/*#header .clouds {
+    background: url('../gfx/clouds.png') center bottom no-repeat;
+    height: 588px;
+    margin-top: -500px;
+    position: relative;
+    z-index: 2;
+}*/
+
+
+#offer {
+    background: #CBC6AB;
+}
+
+
+.section-ofer {
+    position: relative;
+    width: 100%;
+    max-width: 100%;
+}
+
+#offer .buttons {
+
+}
+
+#offer .buttons .wrapper {
+    width: 800px;
+    margin: 0px auto;
+    position: relative;
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    grid-column-gap: 20px;
+    justify-content: center;
+}
+
+#offer .buttons h2 {
+    font-size: 70px;
+    top: 0px;
+    left: 0px;
+    z-index: 4;
+    left: -28px;
+    top: -40px;
+    text-shadow: -1px -1px 0 #f9f9f9;
+}
+
+#offer > div.buttons.nav > h2 {
+    margin-top: 0;
+    padding: 30px;
+    text-shadow: -1px -1px 0 #f9f9f9;
+
+}
+
+
+
+#offer .buttons h2, #offer .title h2 {
+    color: #1080a0;
+    font-size: 56px;
+    text-align: center;
+    text-shadow: -1px -1px 0 #f9f9f9;
+
+
+}
+
+#offer .buttons .btn, #offer .buttons .viewport, #offer .buttons .btn .hover {
+    width: 240px;
+    height: 240px;
+    position: relative;
+}
+
+#offer .buttons .btn {
+    float: left;
+    margin-top: 10px;
+    text-align: center;
+}
+
+#offer .buttons .viewport {
+    background: #3c3c3c;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#offer .buttons .btn a {
+    color: #fff;
+}
+
+
+
+
+#offer > div.buttons.nav > div > div:nth-child(1) > div > a {
+    left: -35px;
+    top: 160px;
+}
+
+#offer > div.buttons.nav > div > div:nth-child(2) > div > a {
+    left: 10px;
+    top: -30px;
+}
+
+#offer > div.buttons.nav > div > div:nth-child(3) > div > a {
+    left: 25px;
+    top: -45px;
+}
+
+#offer > div.buttons.nav > div > div:nth-child(1) > div > div > div, #offer > div.buttons.nav > div > div:nth-child(1) > div > a {
+    background: #1080a0;
+}
+#offer > div.buttons.nav > div > div:nth-child(2) > div > div > div, #offer > div.buttons.nav > div > div:nth-child(2) > div > a {
+    background: #ec0808;
+}
+
+#offer > div.buttons.nav > div > div:nth-child(3) > div > div > div, #offer > div.buttons.nav > div > div:nth-child(3) > div > a {
+    background: #09b02c;
+}
+
+#offer .buttons .btn .viewport a {
+    font-size: 48px;
+    display: block;
+    position: relative;
+    z-index: 2;
+    width: 100%;
+}
+
+#offer .buttons .btn > a {
+    font-size: 60px;
+    display: block;
+    width: 42px;
+    height: 42px;
+    border: 17px solid #3c3c3c;
+    line-height: 44px;
+    position: absolute;
+    z-index: 3;
+}
+
+
+#offer .buttons .btn .hover {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+}
+
+#offer .buttons .btn:hover .hover {
+
+}
+
+#offer .fbox {
+    width: 785px;
+    margin: 0 auto;
+    margin-top: 50px;
+    color: #3c3c3c;
+    text-transform: uppercase;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+#offer .fbox > div:last-child {
+    padding-right: 0px;
+    width: 230px;
+}
+
+#offer .title {
+    background: url('../gfx/middle-strip-title.png') center center no-repeat;
+    height: 110px;
+    margin-top: 50px;
+    overflow: hidden;
+}
+
+#offer .title h2 {
+    text-align: center;
+    font-size: 56px;
+    margin-top: 12px;
+}
+
+#offer ul {
+    width: 750px;
+    margin: 35px auto 0px auto;
+    overflow: hidden;
+    padding: 0;
+}
+
+#offer ul li {
+    float: left;
+    color: #3c3c3c;
+    text-transform: uppercase;
+    font-size: 25px;
+    line-height: 39px;
+    list-style-type: none;
+    text-align: center;
+    text-shadow: 1px 1px 0 #ffffff;
+
+
+}
+
+#offer ul span {
+    font-size: 39px;
+    position: relative;
+    top: 5px;
+}
+
+#offer ul li span {
+    font-family: 'CNFREEBD';
+    padding-right: 4px;
+} 
+
+#offer ul li:nth-child(3n+1){
+    width: 250px;
+}
+
+#offer ul li:nth-child(3n+2){
+    width: 250px;   
+}
+
+#offer ul li:nth-child(3n+3){
+    width: 250px;
+}

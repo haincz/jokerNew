@@ -35,7 +35,11 @@ a {
     padding-top: 76px;
     overflow: hidden;
     position: relative;
-    background: #282828;
+    background: #282828; /* Old browsers */
+    background: -moz-linear-gradient(top, #282828 0%, #4c4c4c 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #282828 0%,#4c4c4c 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #282828 0%,#4c4c4c 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#282828', endColorstr='#4c4c4c',GradientType=0 ); /* IE6-9 */
 }
 
 #header h2 {
@@ -116,6 +120,7 @@ a {
 }
 
 #header .text {
+    background: rgba(49, 49, 49, 0.8);
     color: #fff;
     font-size: 26px;
     line-height: 32px;
@@ -127,6 +132,7 @@ a {
 
 #header .text > div {
     padding: 15px 2px;
+    background: rgba(22%, 21%, 22, 0.8);
 }
 
 #header .text > div > div {
